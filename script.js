@@ -66,8 +66,7 @@ function loadReview() {
     if (!list) return;
 
 
-    let code =
-        window.location.hash.substring(1);
+    let code = window.location.hash.substring(1);
 
 
     if (!code) return;
@@ -75,10 +74,9 @@ function loadReview() {
 
     requirements.forEach((requirement, index) => {
 
-        if (code[index] === "0") {
+        if (code[index] === "1") {
 
-            let item =
-                document.createElement("li");
+            let item = document.createElement("li");
 
             item.textContent = requirement;
 
@@ -89,7 +87,6 @@ function loadReview() {
     });
 
 }
-
 
 
 loadBuilder();
