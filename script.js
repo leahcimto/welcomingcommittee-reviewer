@@ -30,12 +30,12 @@ function generateLink() {
 
     let code = "";
 
-
     requirements.forEach((_, index) => {
 
         let checked =
             document.getElementById(`req${index}`).checked;
 
+        // checked = missing requirement
         code += checked ? "1" : "0";
 
     });
@@ -53,8 +53,8 @@ function generateLink() {
             ${link}
         </a>
         `;
-
 }
+
 
 
 
