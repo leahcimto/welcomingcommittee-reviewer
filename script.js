@@ -1,9 +1,9 @@
 const requirements = [
     "Be friendly, welcoming, and enthusiastic.",
     "Describe something that the creator likes about Scratch.",
-    "Invite New Scratchers to comment on the project to introduce themselves and ask questions.",
+    "Invite New Scratchers to comment on the project to introduce themselves and ask questions. (Example: Feel free to comment if you have any questions)",
     "Include a brief introduction to Scratch.",
-    "Link to the Scratch Wiki and the New Scratchers forum.",
+    "Link to the Scratch Wiki (https://en.scratch-wiki.info/) and the New Scratchers forum (https://scratch.mit.edu/discuss/6/) by pasting these links in the notes and credits.",
     "Make the project look appealing and include a backdrop or a couple of sprites."
 ];
 
